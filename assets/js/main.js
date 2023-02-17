@@ -7,10 +7,10 @@ const tasks_container = document.getElementById('tasks_container');
 
 const setDate = () => {
  const date = new Date();
- date_number.textContent = date.toLocaleDateString('es', {day: 'numeric'});
- date_text.textContent = date.toLocaleDateString('es', {weekday: 'long'});
- date_month.textContent = date.toLocaleDateString('es', {month: 'short'});
- date_year.textContent = date.toLocaleDateString('es', {year: 'numeric'});
+ date_number.textContent = date.toLocaleDateString('en', {day: 'numeric'});
+ date_text.textContent = date.toLocaleDateString('en', {weekday: 'long'});
+ date_month.textContent = date.toLocaleDateString('en', {month: 'short'});
+ date_year.textContent = date.toLocaleDateString('en', {year: 'numeric'});
 }
 
 const addTask = event => {
