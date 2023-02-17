@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap');
 
-* {
- font-family: 'Josefin Sans', sans-serif;
-}
-
-
-input:first-letter, .task:first-letter {
- text-transform: capitalize;
-}
-
 :root {
  --primary: #05B0FFD5;
  --secondary: #F35660CB;
@@ -17,10 +8,22 @@ input:first-letter, .task:first-letter {
  --disabled: #E7E7E7;
 }
 
+::-webkit-scrollbar {
+ width: 0px;
+}
+
+* {
+ font-family: 'Josefin Sans', sans-serif;
+}
+
 body {
  margin: 0;
  height: 100vh;
  background-color: var(--disabled);
+}
+
+input:first-letter, .task:first-letter {
+ text-transform: capitalize;
 }
 
 .round_border {
